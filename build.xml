@@ -481,7 +481,7 @@
           <arg value="-i" />
           <arg path="${BUILD_DIR}" />
           <arg line="-o HTML " />
-          <arg path="dist/docs" />
+          <arg path="${DIST_DIR}/docs" />
           <arg value="-p" />
           <arg path="NDdata/" />
           <arg line="-s Default docstyles" />
